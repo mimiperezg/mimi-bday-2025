@@ -4,6 +4,16 @@ body {
   background-color: #FFFAF0;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 h1 {
   font-size: 30px;
   text-align: center;
