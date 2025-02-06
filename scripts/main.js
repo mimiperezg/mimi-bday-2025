@@ -20,7 +20,7 @@ function displayBnnuy() {
   if (!document.getElementById("bnnuy-text")) {
     var text = document.createElement("p");
     text.id = "bnnuy-text"; // Assign an ID for future reference
-    text.innerText = "enter on the right side of house <br> up the scary back stairs";
+    text.innerHTML = "enter on the right side of house <br> up the scary back stairs";
     document.body.appendChild(text); // Append the text to the body
 }
 };
